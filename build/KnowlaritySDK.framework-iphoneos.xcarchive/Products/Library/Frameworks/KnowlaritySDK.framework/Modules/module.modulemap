@@ -1,0 +1,11 @@
+framework module KnowlaritySDK {
+  umbrella header "KnowlaritySDK.h"
+
+  export *
+  module * { export * }
+}
+
+module KnowlaritySDK.Swift {
+    header "KnowlaritySDK-Swift.h"
+    requires objc
+}
